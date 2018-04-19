@@ -1,0 +1,14 @@
+
+
+function changeBackground(){
+
+var myColor=document.getElementById("text");
+
+    
+
+
+
+}
+
+
+
