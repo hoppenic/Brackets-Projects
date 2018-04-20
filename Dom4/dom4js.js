@@ -1,11 +1,14 @@
 
 function highlightMe(){
     
+    for(var i=0; i<document.getElementsByTagName.length,i++){
+        if(tagName=="b")
+        myVar=style.background="yellow";  
+   
     
-    var myVar=document.getElementsByTagName("b");
-    myVar[0].style.background="yellow";
-    myVar[1].style.background="yellow";
-    myVar[2].style.background="yellow";
+    }
+    
+   
     
     
 };
