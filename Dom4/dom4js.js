@@ -1,9 +1,11 @@
 
 function highlightMe(){
     
-    for(var i=0; i<document.getElementsByTagName.length,i++){
-        if(tagName=="b")
-        myVar=style.background="yellow";  
+    need to figure out how to loop through the b items in the paragraph!
+    
+    for(var i=0; i<p.length;i++){
+        if(element=="b")
+        element.style.background="yellow";  
    
     
     }
