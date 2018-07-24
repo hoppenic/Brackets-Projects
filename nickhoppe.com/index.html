@@ -7,54 +7,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <!--I added my own here from bootswatch-->
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-    
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+
     <link rel="stylesheet" href="Style.CSS">
 
     <title>Nick Hoppe's Website</title>
 </head>
 
 <body>
+
+    </br>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navigation</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+              
+            </ul>
+           
+        </div>
+    </nav>
     <hr>
+    
     <div class="container-fluid">
         <div id="jumbo1" class="jumbotron">
             <h1>Thank you for visiting.</h1>
-           
         </div>
-
     </div>
 
     <hr>
 
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <p> Nick is a former equity analyst and derivative trader turned C# ASP.NET developer. He enjoys technology, finance, traveling and the outdoors.</p>
+                <div class="card" style="width:20rem; height:10rem">
+                    <h5 class="card-title" align="center">About</h5>
+                    <div class="card-body">
+                        <div class="card-text">
+                            Nick is a former equity analyst and derivative trader turned C# ASP.NET developer.
+                        </div>
+                    </div>
+                </div>
             </div>
-
             <div class="col-md-4">
-                <h4> Nick has experience with the following technologies:</h4>
-                <ul>
-                    <li>C#</li>
-                    <li>ASP.NET</li>
-                    <li>JavaScript</li>
-                    <li>JQuery</li>
-                    <li>HTML</li>
-                    <li>Bootstrap/CSS</li>
-                </ul>
+                <div class="card" style="width:20rem; height:15rem">
+                    <h5 class="card-title" align="center">Technology Experience</h5>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <ul>
+                                <li>C#</li>
+                                <li>ASP.NET</li>
+                                <li>JavaScript</li>
+                                <li>Jquery</li>
+                                <li>HTML</li>
+                                <li>Bootstrap/CSS</li>
+                            </ul>
+                            <ul>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-            
-
             <div class="col-md-4">
-                <a href="https://www.linkedin.com/in/nickhoppe" target="_blank"> LinkedIn.</a>
-                <a href="https://github.com/hoppenic" target="_blank"> GitHub.</a>
+                <div class="card" style="width:20rem; height:10rem">
+                    <h5 class="card-title" align="center">Contact</h5>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <ul>
+                                <li> <a href="https://www.linkedin.com/in/nickhoppe" target="_blank">LinkedIn</a> </li>
+                                <li><a href="https://github.com/hoppenic" target="_blank"> GitHub.</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-
         </div>
     </div>
-    
-    <h1 align="center"> Some pictures I've taken on my recent travels.</h1>
+
+    <h1 align="center"> Pictures I've taken on my recent travels.</h1>
 
     <hr>
 
@@ -91,7 +143,7 @@
 
 
 
- <br>
+    <br>
 
 
 
@@ -112,5 +164,6 @@
 
     <script type="text/javascript" src=Main.js></script>
 
-    </body>
+</body>
+
 </html>
