@@ -15,15 +15,16 @@ body{
     background-color:lightgray
 }
 
-
-
-
-#nav1{
-    background-color: green;
+#linkcolor1{
+    color: black    ;
 }
 
-card{
-    background-color: green;
+
+
+
+
+#card1{
+    background-color: steelblue;
 }
 
 
