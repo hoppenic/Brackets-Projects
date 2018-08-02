@@ -1,17 +1,20 @@
-function Course(title,instructor,level,published,views){
-    this.title=title;
-    this.instructor=instructor;
-    this.published=published;
-    this.view=views;
+
+function giveMeEms(pixels){
+    var baseValue=16;
     
+    function doMath(){
+        return pixels/baseValue;
+    }
     
-    
-    
+    return doMath;
 }
 
 
+var smallSize=giveMeEms(12);
+var medSize=giveMeEms(18);
+var largeSize=giveMeEms(24);
+var xlSize=giveMeEms(32);
 
-var course01=new Course("js","me",2019,50);
-
-con
+console.log("small size", smallSize());
+console.log("med size", medSize());
 

@@ -14,4 +14,8 @@ body{
 }
 
 
-
+p{
+    font-family: helvetica;
+    text-align: center;
+    display: inline-block;
+}
